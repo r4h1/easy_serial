@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "easy_serial"
+version = "0.1.0"
+authors = [
+    { name="Robson C. Augusto", email="r4electricsl@gmail.com" }
+]
+description = "A simple package for serial communication with Arduino & ESP32."
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT"}
+dependencies = [
+    "pyserial"
+]
+
+[project.urls]
+Homepage = "https://github.com/r4h1/easy_serial"
+Documentation = "https://github.com/r4h1/easy_serial/wiki"
+Issues = "https://github.com/r4h1/easy_serial/issues"

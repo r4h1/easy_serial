@@ -1,2 +1,8 @@
 # easy_serial
-Repositório que contém instruções de como criar pacotes em Python
+
+A simple Python package for serial communication with Arduino & ESP32.
+
+## Installation
+
+```bash
+pip install easy_serial
